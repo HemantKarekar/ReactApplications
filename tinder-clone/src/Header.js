@@ -1,13 +1,11 @@
-import './App.css';
-import Header from './Header';
+//import './Header.css';
 
-function App() {
+function Header() {
   return (
     <div className="App">
-      <Header/>
-      <h1>Let's Build React App !</h1>
+      <h1>Let's Build Header !</h1>
     </div>
-    
+     
     /* Header */
     /* Tinder Cards */
     /* Swipe Buttons Cards */
@@ -17,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;
