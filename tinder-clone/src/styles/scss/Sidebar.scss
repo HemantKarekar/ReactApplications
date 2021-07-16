@@ -1,7 +1,9 @@
 section {
-    width: 28%;
-    background-color: #cecece41;
-    overflow: hidden;
+  width: 30%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #cecece41;
+  overflow: hidden;
   .section--header {
     background: linear-gradient(90deg, #fd2a7b 0%, #ff7556 100%);
     color: white;
@@ -22,9 +24,17 @@ section {
         background-color: royalblue;
       }
       .profile--title {
-        span {
+        a {
           font-size: 1.8rem;
           font-weight: 400;
+          text-decoration:none;
+          color: white;
+          &:hover,&:active{
+            color: white;
+          }
+          &:focus{
+            font-weight: 500;
+          }
         }
       }
     }

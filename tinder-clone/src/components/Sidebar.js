@@ -2,23 +2,22 @@ import '../styles/css/Sidebar.css';
 
 function Sidebar() {
     return ( 
-    <div className = "Sidebar" >
+    <section className = "Sidebar" >
         {/* Header */ } 
-        <section>
-            <div className = "section--header">
+        <div className = "section--header">
                 <div className = "profile">
                     <div className = "profile--pic">
 
                     </div>
                     <div className = "profile--title">
-                        <span>My Profile</span>
+                        <span><a href="/blogs/124">My Profile</a></span>
                     </div>
                 </div>
                 <div className = "profile--workmode">
 
                 </div>
             </div>
-            <div className = "section--body">
+        <div className = "section--body">
                 <svg width="108px" height="24px" class="" viewBox="0 0 167 35"  >
                     <defs>
                         <linearGradient id="b" x1="0%" y1="40.674%" y2="59.326%">
@@ -36,9 +35,7 @@ function Sidebar() {
                 </svg>
       
             </div>
-        </section>
-       
-    </div>
+    </section>
     );
 }
 

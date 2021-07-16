@@ -1,5 +1,7 @@
 section {
-  width: 28%;
+  width: 30%;
+  height: 100vh;
+  overflow: hidden;
   background-color: #cecece41;
   overflow: hidden;
 }
@@ -39,9 +41,19 @@ section .section--header .profile .profile--pic {
   background-color: royalblue;
 }
 
-section .section--header .profile .profile--title span {
+section .section--header .profile .profile--title a {
   font-size: 1.8rem;
   font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+section .section--header .profile .profile--title a:hover, section .section--header .profile .profile--title a:active {
+  color: white;
+}
+
+section .section--header .profile .profile--title a:focus {
+  font-weight: 500;
 }
 
 section .section--header .profile--workmode {
